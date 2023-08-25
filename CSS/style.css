@@ -1,0 +1,197 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.text-primary{
+    color: #93cb52;
+}
+#navbar{
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+#navbar ul li a{
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+    color: white;
+}
+#navbar ul li a:hover{
+    background: #93cb52;
+    border-radius: 5px;
+}
+#showcase{
+    background: url(../img/showcase.jpg) no-repeat center/cover;
+    height: 100vh;
+    color: white;
+}
+.showcase-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+
+    /*overlay color*/
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 61px;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+.title{
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 0.75rem;
+}
+.introduction{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.more{
+    background: #93cb52;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+}
+.more:hover{
+    background: #7ab436;
+}
+.items{
+    display: flex;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.item{
+    flex: 1;
+    text-align: center;
+}
+.container h2{
+    text-align: center;
+}
+#what .items .item i{
+    background: #7ab436;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.container{
+    padding: 2rem;
+}
+.item h3{
+    line-height: 2.5rem;
+}
+.item p{
+    color: black;
+}
+.whoimage{
+    background: url(../img/people.jpg) no-repeat center center/cover;
+}
+#who{
+    display: flex;
+}
+#who div{
+    flex: 1;
+}
+.list{
+    list-style: none;
+    margin: 0.5 0;
+}
+.list li{
+    border-bottom: #444 dotted 1px;
+    padding: 0.5rem 0;
+}
+.background-dark{
+    background: #333;
+    color: white;
+}
+.whotext{
+    padding: 2rem;
+}
+.whotext h3{
+    margin-top: 1rem;
+}
+.whotext h2{
+    margin-bottom: 1rem;
+}
+.clients{
+    text-align: center;
+    padding: 2rem;
+}
+#pics{
+    display: flex;
+    margin-bottom: 2rem;
+}
+#pics img{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+.contact-details{
+    background: #93cb52;
+    display: flex;
+}
+.Cform{
+    flex: 1;
+    margin: 1rem;
+}
+.map{
+    flex: 1;
+}
+#area{
+  width: 100%;
+}
+form{
+    color: white;
+}
+form input{
+    width: 100%;
+    height: 2rem;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+}
+.fd{
+    padding: 0 1rem;
+}
+.button{
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 5px;
+}
+.Cform h1, p{
+    color: white;
+}
+.Cform h1{
+    padding-top: 1rem;
+}
+.Cform p{
+    padding-bottom: 1rem;
+}
+footer div{
+    padding-top: 2rem;
+}
+footer div p{
+    padding-bottom: 2rem;
+}
+footer p{
+    text-align: center;
+}

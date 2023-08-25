@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="CSS/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="CSS/wide.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>EdgeLedger</title>
+</head>
+<body id="home">
+    <nav id="navbar">
+        <h1 class="logo">
+            <span class="text-primary"><i class=" fas fa-book-open"></i> Edge</span>Ledger
+        </h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#what">What</a></li>
+            <li><a href="#who">Who</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="showcase">
+        <div class="showcase-content">
+            <h1 class="title">The Sky is The Limit</h1>
+            <p class="introduction">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Consectetur, necessitatibus natus culpa praesentium repellat aspernatur.</p>
+                <a href="#what" class="more">Read More</a>
+        </div>
+    </section>
+    <section id="what">
+        <div class="container">
+            <h2><span class="text-primary">What</span> We Do</h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-university fa-2x"></i>
+                    <div>
+                    <h3>Investment Banking</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!</p>
+                </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-book-reader fa-2x"></i>
+                    <div>
+                    <h3>Portfolio Management</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!</p>
+                </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <div>
+                    <h3>Tax & Custodial</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="who">
+        <div class="whoimage"></div>
+        <div class="whotext background-dark">
+            <h2><span class="text-primary">Who</span> We Are</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, blanditiis dignissimos. Tempore optio ipsum sapiente quisquam cumque earum quis et nesciunt, illum ad neque! Delectus mollitia sequi dignissimos est fugiat!</p>
+            <h3>Our Team</h3>
+            <ul class="list">
+                <li>Mark Smith: CEO</li>
+                <li>Shannon Johnson: CFO</li>
+                <li>John Corbit: Lead Accountant</li>
+                <li>Janet Williams: Investment Manager</li>
+                <li>Kara Jackson: Senior Accountant </li>
+            </ul>
+        </div>
+    </section>
+    <div class="clients">
+        <h2><span class="text-primary">Our</span> Clients</h2>
+    </div>
+    <div id="pics">
+        <div><img src="./img/Logos/logo1.png"></div>
+        <div><img src="./img/Logos/logo2.png"></div>
+        <div><img src="./img/Logos/logo3.png"></div>
+        <div><img src="./img/Logos/logo4.png"></div>
+        <div><img src="./img/Logos/logo5.png"></div>
+    </div>
+    <section id="contact">
+        <div class="contact-details">
+            <div class="Cform">
+                <h1>Contact Us</h1>
+                <p>Please fill out the form below to contact us</p>
+                <form>
+                    <div class="fd">
+                    <div>
+                        <label for="name">Name</label><br>
+                        <input type="text"id="name"placeholder=" Enter Name"required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="email"id="email"placeholder=" Enter Email"required>
+                    </div>
+                    <div>
+                        <label for="number">Phone Number</label>
+                        <input type="text"id="number"placeholder=" Enter Phone Number">
+                    </div>
+                    <div>
+                        <label for="text">Message</label>
+                        <textarea id="area"placeholder=" Enter Message"></textarea>
+                    </div>
+                </div>
+                    <div>
+                        <input type="submit" class="button background-dark">
+                    </div>
+                </form>
+            </div>
+            <div class="map"></div>
+        </div>
+        <footer>
+            <div class="background-dark">
+                <p>EdgeLedger &copy; 2019, All Rights Reserved</p>
+            </div>
+        </footer>
+    </section>
+
+    <!--jquery cdn-->
+    <script 
+    src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous">
+</script>
+
+ <!--Google Maps-->
+ <script async
+ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkEWsNQ6S4YNFEg-CNO3nQmU14fWY6kmQ&callback=initMap">
+</script>
+
+    <!--Local JS File-->
+    <script src="JS/main.js"></script>
+</body>
+</html>
